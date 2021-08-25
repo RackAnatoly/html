@@ -131,9 +131,12 @@ p {
 }
 
 .out-2 .t-2 {
+    left: 100px;
+    top: 100px;
 }
 
 .out-2 .t-3 {
+    left: 200px;
 }
 
 /* Task 2 END -------------------------------------- */
@@ -152,12 +155,18 @@ p {
 }
 
 .out-3 .t-1 {
+    left: 50px;
+    top: 50px;
 }
 
 .out-3 .t-2 {
+    left: 100px;
+    top: 100px;
 }
 
 .out-3 .t-3 {
+    left: 150px;
+    top: 150px;
 }
 
 /* Task 3 END -------------------------------------- */
@@ -175,17 +184,17 @@ p {
     position: absolute;
 }
 
-.out-4 .t-1 {
-
-}
-
 .out-4 .t-2 {
+    top:100px;
 }
 
 .out-4 .t-3 {
+    left: 300px;
 }
 
 .out-4 .t-4 {
+    left: 300px;
+    top: 100px
 }
 
 /* Task 4 END -------------------------------------- */
