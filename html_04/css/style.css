@@ -68,3 +68,11 @@ h1 {
   background-color: orangered;
   color: white;
 }
+
+.line-table{
+  border-bottom: 1px solid orange;
+}
+.table-03 td, .table-03 th{
+padding: 10px;
+text-align: center;
+}
