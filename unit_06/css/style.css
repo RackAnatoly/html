@@ -57,7 +57,7 @@ p {
 width: 800px;
 height: 1000px;
 background-color: #fff;
-background-image: url(images/bg.png);
+background-image: url(../images/bg.png);
 position: relative;
 margin: 0 auto;
 }
