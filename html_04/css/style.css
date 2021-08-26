@@ -48,6 +48,10 @@ h1 {
   padding: 10px;
 }
 
+#customers {
+  width: 100%;
+}
+
 #customers td,
 #customers th {
   border: 1px solid #c0c0c0;
@@ -58,10 +62,15 @@ h1 {
   background-color: #dcdcdc;
 }
 
+.users {
+  width: 100%;
+}
+
 .users td,
 .users th {
   border: 1px solid #c0c0c0;
   padding: 10px;
+  margin: 0 auto;
 }
 
 .header-table2 {
@@ -69,10 +78,15 @@ h1 {
   color: white;
 }
 
-.line-table{
+.line-table {
   border-bottom: 1px solid orange;
 }
-.table-03 td, .table-03 th{
-padding: 10px;
-text-align: center;
+.table-03 td,
+.table-03 th {
+  padding: 10px;
+  text-align: center;
+}
+
+.table-03 {
+  width: 100%;
 }
