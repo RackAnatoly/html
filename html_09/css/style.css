@@ -191,19 +191,19 @@ p {
     grid-area: header;
 }
 
-.out-3 news-1 {
+.out-3 .news-1 {
     grid-area: news-1;
 }
 
-.out-3 news-2 {
+.out-3 .news-2 {
     grid-area: news-2;
 }
 
-.out-3 news-3 {
+.out-3 .news-3 {
     grid-area: news-3;
 }
 
-.out-3 news-4 {
+.out-3 .news-4 {
     grid-area: news-4;
 }
 
@@ -216,34 +216,34 @@ p {
    .out-4 {
     display: grid;
     grid-template-areas: 
-    "header header"
-    "news-1 news-2"
-    "news-3 news-4"
-    "footer footer";
+    "header header header"
+    "news-1 news-1 news-2"
+    "news-3 news-4 news-4"
+    "footer footer footer";
   
     grid-gap: 5px;
     min-height: 100px;
     margin: 0;
     grid-template-rows: 50px 200px 200px 50px;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
 }
 .out-4 header {
     grid-area: header;
 }
 
-.out-4 news-1 {
+.out-4 .news-1 {
     grid-area: news-1;
 }
 
-.out-4 news-2 {
+.out-4 .news-2 {
     grid-area: news-2;
 }
 
-.out-4 news-3 {
+.out-4 .news-3 {
     grid-area: news-3;
 }
 
-.out-4 news-4 {
+.out-4 .news-4 {
     grid-area: news-4;
 }
 
@@ -274,19 +274,19 @@ p {
         grid-area: header;
     }
     
-    .out-5 news-1 {
+    .out-5 .news-1 {
         grid-area: news-1;
     }
     
-    .out-5 news-2 {
+    .out-5 .news-2 {
         grid-area: news-2;
     }
     
-    .out-5 news-3 {
+    .out-5 .news-3 {
         grid-area: news-3;
     }
     
-    .out-5 news-4 {
+    .out-5 .news-4 {
         grid-area: news-4;
     }
     
