@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-* {
-    margin: 0;
-}
-
-html, body {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-}
-
-p {
-    background: orange;
-=======
 body {
     font-size: 16px;
 }
@@ -36,5 +23,30 @@ body {
     background: #fff;
     min-height: 30vh;
     color: #131313;
->>>>>>> 33a54b3dc4fcdb2fe48e7aadeade2fe2a6a5f6f5
+}
+
+.photo-block {
+
+}
+
+.cv-left a {
+    color: #fff;
+}
+
+.cv-left a:hover {
+    text-decoration: none;
+}
+
+.cv-left ul {
+    line-height: 175%;
+    padding-left: 30px;
+}
+
+.cv-left ul.contacts-block {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cv-left .address {
+    font-style: italic;
 }
